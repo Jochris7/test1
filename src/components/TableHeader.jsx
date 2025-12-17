@@ -11,10 +11,10 @@ const TableHeader = () => {
           <input type="checkbox" className='w-4 h-4' />
         </th>
         <th className='px-4 md:px-6 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider'>
-          Invoice ID
+          Numéro de facture
         </th>
         <th className='px-4 md:px-6 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider hidden md:table-cell'>
-          Recipient Name
+          Nom du destinataire
         </th>
         <th className='px-4 md:px-6 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider hidden lg:table-cell'>
           Date
@@ -23,10 +23,10 @@ const TableHeader = () => {
           Ville
         </th>
         <th className='px-4 md:px-6 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider'>
-          Amount (XOF)
+          Montant FCFA
         </th>
         <th className='px-4 md:px-6 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider hidden sm:table-cell'>
-          Status
+          Statut
         </th>
         <th className='px-4 md:px-6 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider'>
           Action
