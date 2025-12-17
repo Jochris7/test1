@@ -9,7 +9,7 @@ import { ChevronDown } from 'lucide-react';
 const ActionsBar = ({ onDownload, onSortChange }) => {
     return (
     <div className='flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 px-4 md:px-8 py-4 bg-white border-b'>
-      <h2 className='text-xl font-semibold text-gray-700'>Transaction History</h2>
+      <h2 className='text-xl font-semibold text-gray-700'>Historique des transactions</h2>
       <div className='flex gap-3 w-full sm:w-auto'>
         <button
           onClick={onDownload}
